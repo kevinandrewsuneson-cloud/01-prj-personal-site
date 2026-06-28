@@ -2,10 +2,157 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrew Suneson | Personal Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Navigation bar with links to each section -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Andrew Suneson</div>
+      <nav class="site-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero section with name, title, tagline, and CTA button -->
+  <section id="home" class="hero-section">
+    <div class="container hero-content">
+      <!-- Profile image centered above the hero text -->
+      <div class="hero-image-wrap">
+        <img src="img/Andrew.png" alt="Portrait of Andrew Suneson" class="hero-profile-image">
+      </div>
+      <h1>Andrew Suneson</h1>
+      <p class="hero-title">Organizational Leadership Graduate - Enrollment & Operations Lead</p>
+      <p class="hero-tagline">Leader by example, aspiring entrepreneur learning AI-assisted development with a passion for clear, modern digital experiences.</p>
+      <a href="#contact" class="button">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- About section describing background and goals -->
+  <section id="about" class="section about-section">
+    <div class="container section-inner">
+      <h2>About Me</h2>
+      <p>I am an Organizational Leadership graduate from Arizona State University and an Enrollment & Retention Operations Team Lead, where I help lead a team of more than 30 professionals. I'm passionate about helping students succeed while building scalable processes, systems, and operational frameworks that drive measurable results. I've been fortunate to work for Podium Education since 2023.</p>
+      <p>My career has taken an unconventional path, from nearly two decades in competitive poker and sales to earning my degree through Uber's Arizona State University scholarship program while working full-time. Along the way I've learned to adapt quickly, solve complex problems under pressure, and communicate effectively with people from every background. Today I'm combining those experiences with software development, AI, and project management to build technology that creates measurable business impact.</p>
+    </div>
+  </section>
+
+  <!-- Skills section with cards for key skills -->
+  <section id="skills" class="section skills-section">
+    <div class="container section-inner">
+      <h2>Skills</h2>
+      <div class="card-grid">
+    <div class="skill-card">AI & Prompt Engineering</div>
+    <div class="skill-card">Project Management</div>
+    <div class="skill-card">Business Process Improvement</div>
+    <div class="skill-card">Operations Leadership</div>
+    <div class="skill-card">Cross-Functional Leadership</div>
+    <div class="skill-card">Data Analytics & Reporting</div>
+    <div class="skill-card">SQL</div>
+    <div class="skill-card">Python</div>
+    <div class="skill-card">HTML & CSS</div>
+    <div class="skill-card">Git & GitHub</div>
+    <div class="skill-card">Salesforce CRM</div>
+    <div class="skill-card">Technical Documentation</div>
+    <div class="skill-card">Stakeholder Management</div>
+    <div class="skill-card">Strategic Planning</div>
+    <div class="skill-card">Process Automation</div>
+    <div class="skill-card">Change Management</div>
+    <div class="skill-card">Product Strategy &amp; Roadmapping</div>
+    <div class="skill-card">Workflow &amp; Systems Design</div>
+</div>
+    </div>
+  </section>
+
+  <!-- Projects section with cards for sample work -->
+  <section id="projects" class="section projects-section">
+    <div class="container section-inner">
+      <h2>Recent Projects & Concepts</h2>
+      <div class="card-grid">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>This simple personal website to showcase skills and projects with clean design that you are currently viewing. Welcome!</p>
+        </div>
+        <div class="project-card">
+          <h3>Golden Tee AI Caddie</h3>
+          <p>A creative concept for using AI to help players choose shots in the Golden Tee golf game. Designed to be a game improvement application to help players make better decisions and improve their gameplay at a faster rate.</p>
+        </div>
+        <div class="project-card">
+          <h3>Poker Analysis Tools</h3>
+          <p>Tools for examining poker hands and improving strategy with data support. Designed to help players analyze their opponents gameplay real-time and make data-driven decisions to enhance their performance.</p>
+        </div>
+        <div class="project-card">
+          <h3>Holy Smokes Restaurant Concept</h3>
+          <p>A franchise restaurant idea with branding and customer experience planning.</p>
+        </div>
+        <div class="project-card">
+          <h3>ThezeTeez</h3>
+          <p>A fashion brand centered around unique and trendy apparel designs. Focused on creating distinctive clothing around pop culture, art, artists, and creative expression. The brand aims to merge fashion with cultural and artistic influences to create standout pieces.</p>
+        </div>
+        <div class="project-card">
+          <h3>Revenue Retention SOPs &amp; Outreach Strategy</h3>
+          <p>Designed and implemented standardized retention workflows, outreach strategies, and operating procedures that increased team consistency, strengthened student engagement, and streamlined communication across 100+ university partnerships and 50,000+ students. The initiative improved retention outcomes, helped protect millions in annual revenue, and established scalable processes that continue to support long-term operational growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional recommendations section with testimonial cards -->
+  <section id="recommendations" class="section recommendations-section">
+    <div class="container section-inner">
+      <h2>Professional Recommendations</h2>
+      <div class="card-grid recommendation-grid">
+        <article class="recommendation-card">
+          <div class="recommendation-header">
+            <div class="recommendation-avatar ai-avatar ai-avatar-annie" aria-hidden="true">AH</div>
+            <h3>Annie Hartman</h3>
+          </div>
+          <p>"Andrew was consistently supportive, helpful, and a true team player. He brought a positive attitude to every project, along with a strong work ethic that set a high standard for those around him."</p>
+        </article>
+        <article class="recommendation-card">
+          <div class="recommendation-header">
+            <div class="recommendation-avatar ai-avatar ai-avatar-jeannie" aria-hidden="true">JH</div>
+            <h3>Jeannie Hoffman</h3>
+          </div>
+          <p>"Andrew has impressive customer service skills and an inspiring attitude, even in the face of difficult situations. He has handled student situations with grace."</p>
+        </article>
+        <article class="recommendation-card">
+          <div class="recommendation-header">
+            <div class="recommendation-avatar ai-avatar ai-avatar-gabe" aria-hidden="true">GW</div>
+            <h3>Gabe Williamson</h3>
+          </div>
+          <p>"When Andrew joined the team he made an immediate impact and raised the bar across our entire team. Any organization would stand to benefit from having Andrew."</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section with placeholder links -->
+  <section id="contact" class="section contact-section">
+    <div class="container section-inner">
+      <h2>Contact</h2>
+      <p>If you'd like to connect, reach out through the options below.</p>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/andrew-s-259579229/" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
+        <a href="https://github.com/kevinandrewsuneson-cloud" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub</a>
+        <a href="mailto:Kevin.Andrew.Suneson@gmail.com" class="contact-link">Email</a>
+        <a href="tel:+17252662826" class="contact-link">Phone: 725.266.2826</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer with a small note -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Built with HTML, CSS, and AI-assisted development.</p>
+    </div>
+  </footer>
 </body>
 </html>
